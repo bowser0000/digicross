@@ -1,2 +1,5 @@
-# storygame
-This game is a WIP, mainly based on Python.
+# Story Game
+This game is a WIP, mainly created in Python.
+
+## License
+This project is under the MIT License.
