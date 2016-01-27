@@ -11,6 +11,25 @@ def Custom():
         if playgameconfirm == 'Yes':
             print 'Well then, let\' get started!'
             print 'So, %s, this is route 1! This is where your adventure starts!' % (name)
+            print '%s, wait here while I go get some supplies' % (name)
+            print 'TempName Trainer: Let\'s fight!'
+            print 'Would you like to att-'
+            print 'WHAT\'S GOING ON HERE?'
+            print 'TempName Trainer: BEKFAST!'
+            print 'Don\'t fight him! He has no TempName!'
+            print 'That was a close one.'
+            print 'I have been waiting to ask you, what should I nickname you?'
+            def nickname():
+                nickname = raw_input('You can set your nickname to your original name if you don\'t want one.')
+                print 'So, %s, is it?'
+                nicknameconfirm = raw_input('Yes or No?')
+                if nicknameconfirm == 'Yes':
+                    print 'So, %s, shall we go to route 2?' % (nickname)
+                elif nicknameconfirm == 'No':
+                    nicknameconfirm()
+                else:
+                    print 'Please capitalise the first letter and use Yes or No'
+                    nicknameconfirm()
         elif playgameconfirm == 'No':
             Custom()
         else:
