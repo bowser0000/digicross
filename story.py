@@ -21,7 +21,7 @@ def Custom():
             print 'I have been waiting to ask you, what should I nickname you?'
             def nickname():
                 nickname = raw_input('You can set your nickname to your original name if you don\'t want one.')
-                print 'So, %s, is it?'
+                print 'So, %s, is it?' % (nickname)
                 nicknameconfirm = raw_input('Yes or No?')
                 if nicknameconfirm == 'Yes':
                     print 'So, %s, shall we go to route 2?' % (nickname)
