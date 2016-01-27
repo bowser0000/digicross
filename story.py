@@ -10,6 +10,7 @@ def Custom():
         playgameconfirm = raw_input('Yes or No?')
         if playgameconfirm == 'Yes':
             print 'Well then, let\' get started!'
+            print 'So, %s, this is route 1! This is where your adventure starts!' % (name)
         elif playgameconfirm == 'No':
             Custom()
         else:
