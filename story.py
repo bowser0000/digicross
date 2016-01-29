@@ -1,3 +1,4 @@
+TempName = 'DigiCross'
 def Custom():
     gender = raw_input('What is your gender?')
     print 'Ah, you are a %s!' % gender
@@ -12,11 +13,11 @@ def Custom():
             print 'Well then, let\' get started!'
             print 'So, %s, this is route 1! This is where your adventure starts!' % (name)
             print '%s, wait here while I go get some supplies' % (name)
-            print 'TempName Trainer: Let\'s fight!'
+            print '%s Trainer: Let\'s fight!' % (TempName)
             print 'Would you like to att-'
             print 'WHAT\'S GOING ON HERE?'
-            print 'TempName Trainer: BEKFAST!'
-            print 'Don\'t fight him! He has no TempName!'
+            print '%s Trainer: BEKFAST!' % (TempName)
+            print 'Don\'t fight him! He has no %s!' % (TempName)
             print 'That was a close one.'
             print 'I have been waiting to ask you, what should I nickname you?'
             def nickname():
@@ -25,6 +26,16 @@ def Custom():
                 nicknameconfirm = raw_input('Yes or No?')
                 if nicknameconfirm == 'Yes':
                     print 'So, %s, shall we go to route 2?' % (nickname)
+                    print 'We also need you to pick a %s!' % (TempName)
+                    def choose1():
+                        digicross1 = raw_input('Will you choose Winrad, Semtec or Ilapod?')
+                        if digicross1 == 'Winrad':
+                            finishpick()
+                        elif digicross1 == 'Semtec':
+                            finishpick()
+                        elif digicross1 == 'Ilapod':
+                        else:
+                            print 'Please capitalise the first letter, and use Winrad, Semtec or Ilapod')
                 elif nicknameconfirm == 'No':
                     nicknameconfirm()
                 else:
@@ -35,3 +46,4 @@ def Custom():
         else:
             print 'Please capitalise the first letter, and use Yes or No!'
             YesNo()
+Custom()
