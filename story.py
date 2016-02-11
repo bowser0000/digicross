@@ -50,4 +50,3 @@ def Custom():
         else:
             print 'Use Yes or No!'
             YesNo()
-Custom()
