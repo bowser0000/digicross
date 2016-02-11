@@ -1,4 +1,4 @@
-#Work in Progress! Want to help? https://github.com/bowser0000/digicross
+#Work in Progress! Want to help? https://github.com/bowser0000/digicross/
 TempName = 'DigiCross'
 WIP = 'To be added!'
 def Custom():
