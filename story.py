@@ -1,6 +1,8 @@
+#Work in Progress! Want to help? https://github.com/bowser0000/digicross
 TempName = 'DigiCross'
+WIP = 'To be added!'
 def Custom():
-    gender = raw_input('What is your gender?')
+    gender = raw_input('What is your gender?').capitalize()
     print 'Ah, you are a %s!' % gender
     age = raw_input('So how old are you, exactly?')
     print '%s years old, great!' % age
@@ -8,8 +10,8 @@ def Custom():
     print 'Hello, %s!' % name
     print 'So you are a %s, %s years old, and your name is %s?' % (gender, age, name)
     def YesNo():
-        playgameconfirm = raw_input('Yes or No?')
-        if playgameconfirm == 'Yes':
+        playgameconfirm = raw_input('Yes or No?').lower()
+        if playgameconfirm == 'yes':
             print 'Well then, let\' get started!'
             print 'So, %s, this is route 1! This is where your adventure starts!' % (name)
             print '%s, wait here while I go get some supplies' % (name)
@@ -23,27 +25,29 @@ def Custom():
             def nickname():
                 nickname = raw_input('You can set your nickname to your original name if you don\'t want one.')
                 print 'So, %s, is it?' % (nickname)
-                nicknameconfirm = raw_input('Yes or No?')
-                if nicknameconfirm == 'Yes':
+                nicknameconfirm = raw_input('Yes or No?').lower()
+                if nicknameconfirm == 'yes':
                     print 'So, %s, shall we go to route 2?' % (nickname)
                     print 'We also need you to pick a %s!' % (TempName)
                     def choose1():
-                        digicross1 = raw_input('Will you choose Winrad, Semtec or Ilapod?')
-                        if digicross1 == 'Winrad':
+                        digicross1 = raw_input('Will you choose Winrad, Semtec or Ilapod?').lower()
+                        def finishpick():
+                            print '%s' % (WIP)
+                        if digicross1 == 'winrad':
                             finishpick()
-                        elif digicross1 == 'Semtec':
+                        elif digicross1 == 'semtec':
                             finishpick()
-                        elif digicross1 == 'Ilapod':
+                        elif digicross1 == 'ilapod':
                         else:
-                            print 'Please capitalise the first letter, and use Winrad, Semtec or Ilapod')
-                elif nicknameconfirm == 'No':
+                            print 'Use Winrad, Semtec or Ilapod')
+                elif nicknameconfirm == 'no':
                     nicknameconfirm()
                 else:
-                    print 'Please capitalise the first letter and use Yes or No'
+                    print 'Use Yes or No!'
                     nicknameconfirm()
-        elif playgameconfirm == 'No':
+        elif playgameconfirm == 'no':
             Custom()
         else:
-            print 'Please capitalise the first letter, and use Yes or No!'
+            print 'Use Yes or No!'
             YesNo()
 Custom()
