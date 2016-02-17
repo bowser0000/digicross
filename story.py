@@ -40,13 +40,17 @@ def Custom():
                         elif digicross1 == 'ilapod':
                         else:
                             print 'Use Winrad, Semtec or Ilapod')
+                    choose1()
                 elif nicknameconfirm == 'no':
                     nicknameconfirm()
                 else:
                     print 'Use Yes or No!'
                     nicknameconfirm()
+            nickname()
         elif playgameconfirm == 'no':
             Custom()
         else:
             print 'Use Yes or No!'
             YesNo()
+    YesNo()
+Custom()
