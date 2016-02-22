@@ -34,12 +34,16 @@ def Custom():
                         def finishpick():
                             print '%s' % (WIP)
                         if digicross1 == 'winrad':
+                            starter = 'Winrad'
                             finishpick()
                         elif digicross1 == 'semtec':
+                            starter = 'Semtec'
                             finishpick()
                         elif digicross1 == 'ilapod':
+                            starter = 'ilapod'
+                            finishpick()
                         else:
-                            print 'Use Winrad, Semtec or Ilapod')
+                            print 'Use Winrad, Semtec or Ilapod'
                     choose1()
                 elif nicknameconfirm == 'no':
                     nicknameconfirm()
