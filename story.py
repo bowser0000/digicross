@@ -50,7 +50,7 @@ def Custom():
                             finishpick()
                         else:
                             print 'Use Winrad, Semtec or Ilapod'
-							choose1()
+			    choose1()
                     choose1()
                 elif nicknameconfirm == 'no':
                     nicknameconfirm()
