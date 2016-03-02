@@ -4,38 +4,38 @@ WIP = 'To be added!'
 
 
 def Custom():
-    gender = raw_input('What is your gender?').capitalize()
-    print 'Ah, you are a %s!' % gender
-    age = raw_input('So how old are you, exactly?')
-    print '%s years old, great!' % age
-    name = raw_input('Oh, my! I almost forgot your name! What was it again?')
-    print 'Hello, %s!' % name
-    print 'So you are a %s, %s years old, and your name is %s?' % (gender, age, name)
+    gender = raw_input('Professor: What is your gender?').capitalize()
+    print 'Professor: Ah, you are a %s!' % gender
+    age = raw_input('Professor: So how old are you, exactly?')
+    print 'Professor: %s years old, great!' % age
+    name = raw_input('Professor: Oh, my! I almost forgot your name! What was it again?')
+    print 'Professor: Hello, %s!' % name
+    print 'Professor: So you are a %s, %s years old, and your name is %s?' % (gender, age, name)
 
     def YesNo():
         playgameconfirm = raw_input('Yes or No?').lower()
         if playgameconfirm == 'yes':
-            print 'Well then, let\' get started!'
-            print 'So, %s, this is route 1! This is where your adventure starts!' % (name)
-            print '%s, wait here while I go get some supplies' % (name)
+            print 'Professor: Well then, let\' get started!'
+            print 'Professor: So, %s, this is route 1! This is where your adventure starts!' % (name)
+            print 'Professor: %s, wait here while I go get some supplies' % (name)
             print '%s Trainer: Let\'s fight!' % (TempName)
-            print 'Would you like to att-'
-            print 'WHAT\'S GOING ON HERE?'
+            print 'Selection Box: Would you like to att-'
+            print 'Professor: WHAT IS GOING ON HERE?'
             print '%s Trainer: BEKFAST!' % (TempName)
-            print 'Don\'t fight him! He has no %s!' % (TempName)
-            print 'That was a close one.'
-            print 'I have been waiting to ask you, what should I nickname you?'
+            print 'Professor: Don\'t fight him! He has no %s!' % (TempName)
+            print 'Professor: That was a close one.'
+            print 'Professor: I have been waiting to ask you, what should I nickname you?'
 
             def nickname():
-                nickname = raw_input('You can set your nickname to your original name if you don\'t want one.')
-                print 'So, %s, is it?' % (nickname)
+                nickname = raw_input('Helper: You can set your nickname to your original name if you don\'t want one.')
+                print 'Professor: So, %s, is it?' % (nickname)
                 nicknameconfirm = raw_input('Yes or No?').lower()
                 if nicknameconfirm == 'yes':
-                    print 'So, %s, shall we go to route 2?' % (nickname)
-                    print 'We also need you to pick a %s!' % (TempName)
+                    print 'Professor: So, %s, shall we go to route 2?' % (nickname)
+                    print 'Professor: We also need you to pick a %s!' % (TempName)
 
                     def choose1():
-                        digicross1 = raw_input('Will you choose Winrad, Semtec or Ilapod?').lower()
+                        digicross1 = raw_input('Helper: Will you choose Winrad, Semtec or Ilapod?').lower()
 
                         def finishpick():
                             print '%s' % (WIP)
@@ -49,19 +49,19 @@ def Custom():
                             starter = 'ilapod'
                             finishpick()
                         else:
-                            print 'Use Winrad, Semtec or Ilapod'
+                            print 'Helper: Use Winrad, Semtec or Ilapod'
 			    choose1()
                     choose1()
                 elif nicknameconfirm == 'no':
                     nicknameconfirm()
                 else:
-                    print 'Use Yes or No!'
+                    print 'helper: Use Yes or No!'
                     nicknameconfirm()
             nickname()
         elif playgameconfirm == 'no':
             Custom()
         else:
-            print 'Use Yes or No!'
+            print 'Helper: Use Yes or No!'
             YesNo()
     YesNo()
 Custom()
