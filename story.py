@@ -38,6 +38,8 @@ def Custom():
                         digicross1 = raw_input('Helper: Will you choose Winrad, Semtec or Ilapod?').lower()
 
                         def finishpick():
+                            print 'Professer: Here, take %s then!' % (starter)
+                            print 'Professer: Take care of him!'
                             print '%s' % (WIP)
                         if digicross1 == 'winrad':
                             starter = 'Winrad'
@@ -51,6 +53,7 @@ def Custom():
                         else:
                             print 'Helper: Use Winrad, Semtec or Ilapod'
 			    choose1()
+			finishpick()
                     choose1()
                 elif nicknameconfirm == 'no':
                     nicknameconfirm()
