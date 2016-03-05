@@ -42,20 +42,20 @@ def Custom():
                             print 'Professer: Take care of him!'
                             print 'Professer: I\'ll be on my way! Meet me back home!'
                             print '%s Trainer: Your first battle too? Let\'s fight!'
-                            def firstbattledef:
-                            	firstbattle = raw_input ('Menu: Would you like to Attack, Special or Flee').capitalize()
+                            def firstbattledef():
+                            	firstbattle = raw_input('Menu: Would you like to Attack, Special or Flee?').capitalize()
+                            firstbattledef()
                             if firstbattle == 'Attack':
                             	print '%s' % (WIP)
-                            if firstbattle == 'Special'
+                            if firstbattle == 'Special':
                                 print 'Menu: You have no specials!'
                                 firstbattledef()
-                            if firstbattle == 'Flee'
+                            if firstbattle == 'Flee':
                             	print 'Menu: You can\'t run from this battle!'
                             	firstbattledef()
                             else:
                             	print 'Menu: Use Attack, Special or Flee!'
                             	firstbattledef()
-                            firstbattledef()
                         if digicross1 == 'winrad':
                             starter = 'Winrad'
                             finishpick()
