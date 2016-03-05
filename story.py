@@ -27,7 +27,7 @@ def Custom():
             print 'Professor: I have been waiting to ask you, what should I nickname you?'
 
             def nickname():
-                nickname = raw_input('Helper: You can set your nickname to your original name if you don\'t want one.')
+                nickname = raw_input('Menu: You can set your nickname to your original name if you don\'t want one.')
                 print 'Professor: So, %s, is it?' % (nickname)
                 nicknameconfirm = raw_input('Yes or No?').lower()
                 if nicknameconfirm == 'yes':
@@ -35,12 +35,27 @@ def Custom():
                     print 'Professor: We also need you to pick a %s!' % (TempName)
 
                     def choose1():
-                        digicross1 = raw_input('Helper: Will you choose Winrad, Semtec or Ilapod?').lower()
+                        digicross1 = raw_input('Menu: Will you choose Winrad, Semtec or Ilapod?').lower()
 
                         def finishpick():
                             print 'Professer: Here, take %s then!' % (starter)
                             print 'Professer: Take care of him!'
-                            print '%s' % (WIP)
+                            print 'Professer: I\'ll be on my way! Meet me back home!'
+                            print '%s Trainer: Your first battle too? Let\'s fight!'
+                            def firstbattledef:
+                            	firstbattle = raw_input ('Menu: Would you like to Attack, Special or Flee').capitalize()
+                            if firstbattle == 'Attack':
+                            	print '%s' % (WIP)
+                            if firstbattle == 'Special'
+                                print 'Menu: You have no specials!'
+                                firstbattledef()
+                            if firstbattle == 'Flee'
+                            	print 'Menu: You can\'t run from this battle!'
+                            	firstbattledef()
+                            else:
+                            	print 'Menu: Use Attack, Special or Flee!'
+                            	firstbattledef()
+                            firstbattledef()
                         if digicross1 == 'winrad':
                             starter = 'Winrad'
                             finishpick()
@@ -51,20 +66,20 @@ def Custom():
                             starter = 'ilapod'
                             finishpick()
                         else:
-                            print 'Helper: Use Winrad, Semtec or Ilapod'
+                            print 'Menu: Use Winrad, Semtec or Ilapod'
 			    choose1()
 			finishpick()
                     choose1()
                 elif nicknameconfirm == 'no':
                     nicknameconfirm()
                 else:
-                    print 'helper: Use Yes or No!'
+                    print 'Menu: Use Yes or No!'
                     nicknameconfirm()
             nickname()
         elif playgameconfirm == 'no':
             Custom()
         else:
-            print 'Helper: Use Yes or No!'
+            print 'Menu: Use Yes or No!'
             YesNo()
     YesNo()
 Custom()
