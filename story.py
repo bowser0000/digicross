@@ -51,15 +51,15 @@ def Custom():
                             	print '%s Trainer: You put up a good fight, but is your strength a lie?' % (TempName)
                             	print '%s Trainer: Blooma use tickle! Erm... I mean tackle!' % (TempName)
                             	print '%s' % (WIP)
-                            if firstbattle == 'Special':
-                                print 'Menu: You have no specials!'
-                                firstbattledef()
-                            if firstbattle == 'Flee':
-                            	print 'Menu: You can\'t run from this battle!'
-                            	firstbattledef()
+                            elif firstbattle == 'Special':
+                                	print 'Menu: You have no specials!'
+                        		firstbattledef()
+                            elif firstbattle == 'Flee':
+                            		print 'Menu: You can\'t run from this battle!'
+                            		firstbattledef()
                             else:
-                            	print 'Menu: Use Attack, Special or Flee!'
-                            	firstbattledef()
+                            		print 'Menu: Use Attack, Special or Flee!'
+                            		firstbattledef()
                         if digicross1 == 'winrad':
                             starter = 'Winrad'
                             finishpick()
