@@ -47,7 +47,9 @@ def Custom():
                             	firstbattle = raw_input('Menu: Would you like to Attack, Special or Flee?').capitalize()
                             firstbattledef()
                             if firstbattle == 'Attack':
-                            	print '%s used Rear Kick! Blooma took 7 damage!' % (Starter)
+                            	from random import randint
+				firstattack == (randint(0,7))
+                            	print '%s used Rear Kick! Blooma took %s damage!' % (Starter, firstattack)
                             	print '%s Trainer: You put up a good fight, but is your strength a lie?' % (TempName)
                             	print '%s Trainer: Blooma use tickle! Erm... I mean tackle!' % (TempName)
                             	print '%s' % (WIP)
