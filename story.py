@@ -19,7 +19,7 @@ def Custom():
             print 'Professor: So, %s, this is route 1! This is where your adventure starts!' % (name)
             print 'Professor: %s, wait here while I go get some supplies' % (name)
             print '%s Trainer: Let\'s fight!' % (TempName)
-            print 'Selection Box: Would you like to att-'
+            print 'Menu: Would you like to att-'
             print 'Professor: WHAT IS GOING ON HERE?'
             print '%s Trainer: BEKFAST!' % (TempName)
             print 'Professor: Don\'t fight him! He has no %s!' % (TempName)
@@ -47,6 +47,9 @@ def Custom():
                             	firstbattle = raw_input('Menu: Would you like to Attack, Special or Flee?').capitalize()
                             firstbattledef()
                             if firstbattle == 'Attack':
+                            	print '%s used Rear Kick! Blooma took 7 damage!' % (Starter)
+                            	print '%s Trainer: You put up a good fight, but is your strength a lie?' % (TempName)
+                            	print '%s Trainer: Blooma use tickle! Erm... I mean tackle!' % (TempName)
                             	print '%s' % (WIP)
                             if firstbattle == 'Special':
                                 print 'Menu: You have no specials!'
@@ -64,7 +67,7 @@ def Custom():
                             starter = 'Semtec'
                             finishpick()
                         elif digicross1 == 'ilapod':
-                            starter = 'ilapod'
+                            starter = 'Ilapod'
                             finishpick()
                         else:
                             print 'Menu: Use Winrad, Semtec or Ilapod'
