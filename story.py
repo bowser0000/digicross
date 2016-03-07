@@ -41,7 +41,7 @@ def Custom():
                             print 'Professer: Here, take %s then!' % (starter)
                             print 'Professer: Take care of him!'
                             print 'Professer: I\'ll be on my way! Meet me back home!'
-                            print '%s Trainer: Your first battle too? Let\'s fight!'
+                            print '%s Trainer: Your first battle too? Let\'s fight!' % (TempName)
                             
                             def firstbattledef():
                             	firstbattle = raw_input('Menu: Would you like to Attack, Special or Flee?').capitalize()
