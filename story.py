@@ -44,17 +44,17 @@ def Custom():
                             print '%s Trainer: Your first battle too? Let\'s fight!' % (TempName)
                             
                             def firstbattledef():
-                            	firstbattle = raw_input('Menu: Would you like to Attack, Special or Flee?').capitalize()
+                            	firstbattle = raw_input('Menu: Would you like to Attack, Special or Flee?').lower()
                             firstbattledef()
-                            if firstbattle == 'Attack':
+                            if firstbattle == 'attack':
                             	print '%s used Rear Kick! Blooma took 7 damage!' % (Starter)
                             	print '%s Trainer: You put up a good fight, but is your strength a lie?' % (TempName)
                             	print '%s Trainer: Blooma use tickle! Erm... I mean tackle!' % (TempName)
                             	print '%s' % (WIP)
-                            elif firstbattle == 'Special':
+                            elif firstbattle == 'special':
                                 print 'Menu: You have no specials!'
                         	firstbattledef()
-                            elif firstbattle == 'Flee':
+                            elif firstbattle == 'flee':
                             	print 'Menu: You can\'t run from this battle!'
                             	firstbattledef()
                             else:
