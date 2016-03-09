@@ -41,7 +41,7 @@ def Custom():
                             print 'Professer: Here, take %s then!' % (starter)
                             print 'Professer: Take care of him!'
                             print 'Professer: I\'ll be on my way! Meet me back home!'
-                            print '%s Trainer: Your first battle too? Let\'s fight!' % (TempName)
+                            print '%s Trainer: Lets fight to the English beat!' % (TempName)
                             
                             def firstbattledef():
                             	firstbattle = raw_input('Menu: Would you like to Attack, Special or Flee?').lower()
@@ -50,7 +50,7 @@ def Custom():
                             	print '%s used Rear Kick! Blooma took 7 damage!' % (Starter)
                             	print '%s Trainer: You put up a good fight, but is your strength a lie?' % (TempName)
                             	print '%s Trainer: Blooma use tickle! Erm... I mean tackle!' % (TempName)
-                            	print '%s took ' INSERT RANDOM DAMAGE HERE 'damage!' % (starter)
+                            	print '%s took ' + 'INSERT RANDOM DAMAGE HERE' + 'damage!' % (starter)
                             	print '%s' % (WIP)
                             elif firstbattle == 'special':
                                 print 'Menu: You have no specials!'
