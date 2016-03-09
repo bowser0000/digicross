@@ -50,6 +50,7 @@ def Custom():
                             	print '%s used Rear Kick! Blooma took 7 damage!' % (Starter)
                             	print '%s Trainer: You put up a good fight, but is your strength a lie?' % (TempName)
                             	print '%s Trainer: Blooma use tickle! Erm... I mean tackle!' % (TempName)
+                            	print '%s took ' INSERT RANDOM DAMAGE HERE 'damage!' % (starter)
                             	print '%s' % (WIP)
                             elif firstbattle == 'special':
                                 print 'Menu: You have no specials!'
