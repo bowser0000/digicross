@@ -8,8 +8,8 @@ alert('Professor: Ah! You are a ' + gender + '!');
 var age = prompt('Professor: So how old are you, exactly?');
 alert('Professor: ' + age + ' years old, great!');
 var name1 = prompt('Professor: Oh my! I almost forgot your name! What was it again?');
-alert('Professor: Hello ' + name + '!');
-alert('Professor: So you are a ' + gender + ', ' + age + ' years old, and your name is ' + name + '?');
+alert('Professor: Hello ' + name1 + '!');
+alert('Professor: So you are a ' + gender + ', ' + age + ' years old, and your name is ' + name1 + '?');
 var playgameconfirm = prompt('Menu: Yes or No?').toLowerCase();
 if (playgameconfirm == 'yes')
 {
