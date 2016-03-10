@@ -7,3 +7,19 @@ var gender = prompt('Professer: What is your gender?').toLowerCase()
 alert('Professor: Ah! You are a ' + gender + '!')
 var age = prompt('Professor: So how old are you, exactly?')
 alert('Professor: ' + age + ' years old, great!')
+var name = prompt('Professor: Oh my! I almost forgot your name! What was it again?')
+alert('Professor: Hello ' + name + '!')
+alert('Professor: So you are a ' + gender + ', ' + age + ' years old, and your name is ' + name + '?')
+var playgameconfirm = prompt('Menu: Yes or No?').toLowerCase()
+if (playgameconfirm == 'yes')
+{
+  
+}
+else if (playgameconfirm == 'no')
+{
+  
+}
+else
+{
+  
+}
