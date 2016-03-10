@@ -1,3 +1,5 @@
+# If you are a contributor, you get your name here ;)
+# Thanks Loquacious!
 # Work in Progress! Want to help? https://github.com/bowser0000/digicross/
 TempName = 'DigiCross'
 WIP = 'To be added!'
