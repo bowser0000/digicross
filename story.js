@@ -44,7 +44,7 @@ function Custom()
             alert('Professor: Here, take ' + digicross1 + 'then!');
             alert('Professor: Take care of him!');
             alert('Professor: I\'ll be on my way! Meet me back home!');
-            alert('DigiCross Trainer: Your first battle too? Then let\'s fight!);
+            alert('DigiCross Trainer: Your first battle too? Then let\'s fight!');
             function firstbattlefunc()
             {
               var firstbattle = prompt('Menu: Would you like to Attack, Special or Flee?').toLowerCase()
