@@ -4,3 +4,6 @@
 var WIP = ('To be added!')
 
 var gender = prompt('Professer: What is your gender?').toLowerCase()
+alert('Professor: Ah! You are a ' + gender + '!')
+var age = prompt('Professor: So how old are you, exactly?')
+alert('Professor: ' + age + ' years old, great!')
