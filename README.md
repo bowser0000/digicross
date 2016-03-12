@@ -1,5 +1,5 @@
 # Story Game
-This game is a work-in-progress, created mainly in Python.
+This game is a work-in-progress, created in JavaScript.
 
 ## Usage
 Give credit if you wish to use this somewhere else.
