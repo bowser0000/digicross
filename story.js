@@ -3,6 +3,10 @@
 // Work in Progress! Want to help? https://github.com/bowser0000/digicross/
 var WIP = ('To be added!');
 
+function MathRandom(min, max) {
+  Math.random(min, max)
+}
+
 function Custom()
 {
   var gender = prompt('Professer: What is your gender?').toLowerCase();
@@ -58,7 +62,7 @@ function Custom()
               alert('DigiCross Trainer: You put up a good fight, but is your strength a lie?');
               alert('DigiCross Trainer: Blooms, use tickle... erm... I mean tackle!');
               alert(WIP);
-              alert(digicross1 + ' took' + Math.random(1, 7) + ' damage!');
+              alert(digicross1 + ' took' + MathRandom(1, 7);  + ' damage!');
             }
             else if (firstbattle == 'special')
             {
