@@ -50,6 +50,8 @@ function Custom()
               var firstbattle = prompt('Menu: Would you like to Attack, Special or Flee?').toLowerCase();
             }
             firstbattlefunc();
+            function attack1()
+            {
             if (firstbattle == 'attack')
             {
               alert('Menu: ' + digicross1 + ' used Rear Kick! Blooma took 7 damage!');
@@ -73,6 +75,8 @@ function Custom()
               alert('Menu: Use Attack, Special or Flee!');
               firstbattlefunc();
             }
+            }
+            attack1();
           }
           if (digicross1 == 'winrad')
           {
