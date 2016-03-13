@@ -58,7 +58,7 @@ function Custom()
               alert('DigiCross Trainer: You put up a good fight, but is your strength a lie?');
               alert('DigiCross Trainer: Blooms, use tickle... erm... I mean tackle!');
               alert(WIP);
-              alert(digicross1 + ' took' + 'INSERTRANDOMDAMAGEHERE' + ' damage!');
+              alert(digicross1 + ' took' + Math.random(1, 7) + ' damage!');
             }
             else if (firstbattle == 'special')
             {
