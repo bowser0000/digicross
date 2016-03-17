@@ -3,6 +3,10 @@
 
 // Work in Progress; want to help? https://github.com/bowser0000/digicross/
 
+function firstbattlefunc() {
+	var firstbattle = prompt('Menu: Would you like to Attack, Special or Flee?').toLowerCase();
+}
+	
 function Custom() {
 	var gender = prompt('Professer: What is your gender?').toLowerCase();
 	alert('Professor: Ah! You are a ' + gender + '!');
@@ -42,10 +46,6 @@ function Custom() {
 							alert('Professor: Take care of him!');
 							alert('Professor: I\'ll be on my way! Meet me back home!');
 							alert('DigiCross Trainer: Your first battle too? Then let\'s fight!');
-
-							function firstbattlefunc() {
-								var firstbattle = prompt('Menu: Would you like to Attack, Special or Flee?').toLowerCase();
-							}
 							firstbattlefunc();
 
 							function attack1() {
