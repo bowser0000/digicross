@@ -102,3 +102,4 @@ function Custom() {
 	}
 	YesNo();
 }
+Custom()
