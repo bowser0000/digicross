@@ -3,6 +3,8 @@
 
 // Work in Progress; want to help? https://github.com/bowser0000/digicross/
 
+var WIP = 'Work in progress!';
+
 function firstbattlefunc() {
 	var firstbattle = prompt('Menu: Would you like to Attack, Special or Flee?').toLowerCase();
 }
@@ -24,7 +26,7 @@ function nickname() {
 }
 
 function choose1() {
-	digicross1 = prompt('Will you choose Winrad, Semtec or Ilapod?').toLowerCase();
+	var digicross1 = prompt('Will you choose Winrad, Semtec or Ilapod?').toLowerCase();
 	
 	function finishpick() {
 		alert('Professor: Here, take ' + digicross1 + ' then!');
@@ -43,7 +45,6 @@ function choose1() {
 			} else if (firstbattle == 'special') {
 				alert('Menu: You have no specials yet!');
 				firstbattlefunc();
-			} else if (firstbattle == 'flee') {
 				alert('Menu: You can\'t flee from this battle!');
 				firstbattlefunc();
 			} else {
@@ -58,7 +59,7 @@ function choose1() {
     	finishpick();
 	} else if (digicross1 == 'semtec') {
 		digicross1 = 'Semtec';
-		finishipick();
+		finishpick();
 	} else if (digicross1 == 'ilapod') {
 		digicross1 = 'Ilapod';
 		finishpick();
