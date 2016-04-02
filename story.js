@@ -5,8 +5,9 @@
 
 var WIP = 'Work in progress!';
 
+var firstbattle;
 function firstbattlefunc() {
-	var firstbattle = prompt('Menu: Would you like to Attack, Special or Flee?').toLowerCase();
+    firstbattle = prompt('Menu: Would you like to Attack, Special or Flee?').toLowerCase();
 }
 
 function nickname() {
