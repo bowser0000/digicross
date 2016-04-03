@@ -4,6 +4,11 @@
 // Work in Progress; want to help? https://github.com/bowser0000/digicross/
 
 var WIP = 'Work in progress!';
+var HP = '50';
+
+function RandomDamage(min, max) {
+return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
 var firstbattle;
 function firstbattlefunc() {
@@ -42,7 +47,7 @@ function choose1() {
 				alert('DigiCross Trainer: You put up a good fight, but is your strength a lie?');
 				alert('DigiCross Trainer: Blooms, use tickle... erm... I mean tackle!');
 				alert(WIP);
-				alert(digicross1 + ' took' + 'INSERTRANDOMDAMAGEHERE' + ' damage!');
+				alert(digicross1 + ' took ' + RandomDamage(1, 7) + ' damage!');
 			} else if (firstbattle == 'special') {
 				alert('Menu: You have no specials yet!');
 				firstbattlefunc();
